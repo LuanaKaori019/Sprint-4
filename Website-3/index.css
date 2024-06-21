@@ -1,0 +1,132 @@
+header {
+    background-image: url(./assets/trianglify-lowres.png); 
+    background-size: cover;
+    background-position: center;
+    height: 300px; 
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 20px; 
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    
+
+}
+header h1 {
+    font-size: 36px;
+    text-shadow:  5px 4px rgba(245, 243, 243, 0.97) ;
+    margin-top: 40px;
+    color: black;
+    margin-bottom: -8%;
+    
+}
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(./assets/design1_image1.jpg);
+
+
+}
+
+nav {
+    padding: 8px 400px; 
+    border-radius: 6px; 
+    display: inline-grid; 
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 25px;
+    
+}
+
+nav a {
+    margin-right: 20px; 
+    font-size: 18px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 0, 0.863);
+    margin-right: 10px;
+    font-family: serif;
+    color: white;
+    transition: transform 0.3s ease; 
+    padding: 6px 20px;
+    
+    
+
+}
+a:hover{
+    background-color: #f8e12e;
+}
+a:active{
+    background-color: aliceblue;
+}
+
+nav a:hover {
+    transform: scale(1.1);
+}
+#Logo {
+     transition: transform 0.3s ease;
+     max-width: 100px;
+}
+
+
+#Logo:hover {
+ transform: scale(1.2);
+}
+.logo {
+    max-width: 100px;
+    margin-left: 200px;
+    background-color: paleturquoise;
+    margin-top: 40px;
+
+}
+#logo{
+    position: absolute;
+    top: 10px;
+    left: 270px;
+    width: 100px;
+    height: auto;
+    background-color: #d6eeee;
+    border-radius: 5px;
+    margin-top: 46px;
+    
+
+
+}
+
+h2{
+    text-align: center;
+    color: #d6eeee;
+    background-color: #c9bcbc;
+}
+
+
+form {
+    width: 50%;
+    margin: auto; 
+    padding: 20px; 
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    background-color: #c9bcbc; 
+    height: 100%;
+}
+.grade{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.gender{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+fieldset {
+    height: 200px;
+    text-align: left;
+ 
+}
+.Uniform{
+    height: 400px;
+}
+input[type="text" i] {
+    width: 27%;
+    margin-left: 5px;
+    height: 20px;
+}
